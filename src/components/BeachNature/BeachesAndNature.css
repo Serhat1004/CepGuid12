@@ -1,0 +1,41 @@
+.beaches-nature-details {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.beaches-nature-details h1 {
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.beaches-nature-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.beaches-nature-details p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0 20px;
+}
+.back-link {
+  margin-top: 20px; 
+}
+
+.back-link a {
+  color: #007bff; 
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.back-link a:hover {
+  text-decoration: underline; 
+}

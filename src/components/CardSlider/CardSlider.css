@@ -1,0 +1,58 @@
+.card-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.card {
+  flex: 0 0 33.333%; /* 33.333% of the card-slider's width */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+  overflow: hidden;
+  height: 300px; /* Define a specific height for all cards */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-slider .card:nth-child(2) {
+  transform: scale(1);
+}
+
+.card {
+  transition: opacity 0.5s ease;
+}
+
+.transparent {
+  opacity: 0.5;
+}
+
+.slide-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 500;
+}
+
+.slide-button.prev {
+  left: 10px;
+}
+
+.slide-button.next {
+  right: 10px;
+}
+
+.slide-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

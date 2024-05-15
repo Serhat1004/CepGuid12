@@ -1,0 +1,46 @@
+.boat-tour-details {
+  max-width: 800px; /* Limits the width of the container */
+  margin: 40px auto; /* Centers the container with vertical spacing */
+  padding: 20px; /* Padding inside the container */
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Stronger shadow for a floating effect */
+  text-align: center; /* Centers the text */
+}
+
+.boat-tour-details h1 {
+  color: #2a2a2a; /* Dark color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.boat-tour-details img {
+  max-width: 100%; /* Ensures the image is not larger than the container */
+  height: auto; /* Keeps the image proportion intact */
+  border-radius: 4px; /* Slightly rounded corners for the image */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+.boat-tour-details p {
+  font-size: 16px; /* Font size for readability */
+  color: #333; /* Dark grey color for body text */
+  line-height: 1.6; /* Line height for better readability */
+  margin: 0 20px; /* Horizontal padding to keep the text well-padded */
+}
+.back-link {
+  margin-top: 20px; 
+}
+
+.back-link a {
+  color: #007bff; 
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.back-link a:hover {
+  text-decoration: underline; 
+}
+.boat-tour-details {
+  padding: 20px;
+}
+
+

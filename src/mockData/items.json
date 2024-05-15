@@ -1,0 +1,265 @@
+[  {
+    "id": 1,
+    "name": "Adrasan Boat Tour",
+    "color": "#6cb58f",
+    "price": 2800,
+    "image": "/assets/BootsTour.jpg",
+    "short-description":"Marvel at the breathtakingly beautiful scenery, swim in clear water near Adrasan, and enjoy a delicious lunch on the boat.",
+    "description": [
+      "● Duration 9 hours",
+      "● English,German and Turkish speaking staff ",
+      "● Pickup optional"
+  ]
+  },
+  {
+    "id": 2,
+    "name": "Kemer Boat Tour",
+    "color": "#af294b",
+    "price": 2500,
+    "image": "/assets/gemii.jpg",
+    "short-description":"Get out into nature on a boat trip from Antalya. Explore Suluada Island, cruise through Akseki Bay, and visit the mythical Love Cave for a refreshingly cool swim.",
+    "description": [
+      "● Duration 7 - 13 hours",
+      "● Lunch included ",
+      "● Pickup optional"
+  ]
+
+  },
+  {
+    "id": 3,
+    "name": "Aspendos Tour",
+    "color": "#c8a971",
+    "price": 900,
+    "image": "/assets/Aspendo.jpg",
+    "short-description":"Journey into the past as you discover the ancient citiy of Aspendos on this guided tour from Antalya. Explore the ruins of Roman architecture.",
+    "description": [
+      "● Duration 9 hours",
+      "● Live tour guide ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 4,
+    "name": "Myra Tour",
+    "color": "#5fcd16",
+    "price": 1200,
+    "image": "/assets/myra.jpg",
+    "short-description":"Visit the ancient city of Myra and its theater, the church of Saint Nicholas (Christmas)",
+    "description": [
+      "● Duration 7 hours",
+      "● Live tour guide ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 5,
+    "name": "Köprülü Canyon Rafting",
+    "color": "#e969c0",
+    "price": 600,
+    "image": "/assets/raft.jpg",
+    "short-description":"Unleash your inner adventurer and conquer 10 exhilarating rapids on a 14-kilometer rafting journey in the stunning Köprülü Canyon from Side.",
+    "description": [
+      "● Duration 6-7 hours",
+      "● Live tour guide ",
+      "● Pickup optional"
+  ]
+  },
+  {
+    "id": 6,
+    "name": "Side Jeep Tour",
+    "color": "#fb375e",
+    "price": 850,
+    "image": "/assets/Jeep.jpg",
+    "short-description":"With our Jeep Safari Tour you will get to know Side’s countryside, while admiring the spectacular scenery that Mountains form. Visit historical points of interest, swim in Green lake and much more.",
+    "description": [
+      "● Duration 8 hours",
+      "● English,German and Turkish speaking staff "
+  ]
+  },
+  {
+    "id": 7,
+    "name": "Xanthos and Patara",
+    "color": "#2da567",
+    "price": 1200,
+    "image": "/assets/Xanthos.jpg",
+    "short-description":"Start this day tour from Kalkan. Explore the ancient Xanthos City and Patara Beach, the longest beach in Turkey.",
+    "description": [
+      "● Duration 7 houra",
+      "● Skip the ticket line ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 8,
+    "name": "Kaputas Beach",
+    "color": "#060571",
+    "price": 2200,
+    "image": "/assets/Kaput.jpg",
+    "short-description":"Hello",
+    "description": [
+      "● Duration 7 - 13 hours",
+      "● Reserve now & pay later ",
+      "● Pickup optional"
+  ]
+  },
+  {
+    "id": 9,
+    "name": "Scuba Diving",
+    "color": "#3f79e3",
+    "price": 1500,
+    "image": "/assets/scuba.jpg",
+    "short-description":"Embark on an unforgettable diving adventure in Antalya! Suitable for beginners and experienced divers, includes equipment training, two dives, lunch, and transfers. Explore Kemer's crystal waters",
+    "description": [
+      "● Duration 8 hours",
+      "● English,German and Turkish speaking staff ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 10,
+    "name": "JetSki",
+    "color": "#d8e3fb",
+    "price": 2100,
+    "image": "/assets/jetski.jpg",
+    "short-description":"Take in the amazing and jaw-dropping view of the Antalya from the sea on a 30-minute Jet Ski tour. Drive your Jet ski and enjoy maximum freedom by the sea and explore Antalya's' waterfront.",
+    "description": [
+      "● Duration 30 minutes",
+      "● Small group",
+      "● English and Turkish speaking staff"
+  ]
+  },
+  {
+    "id": 11,
+    "name": "Paragliding",
+    "color": "#f737da",
+    "price": 4000,
+    "image": "/assets/para.jpg",
+    "short-description":"Enjoy the thrill in the air It is an unique feeling to look at the world from above Experience the feeling of freedom",
+    "description": [
+      "● Duration 1.5 hours",
+      "● English and Turkish speaking staff",
+      "● Private group"
+  ]
+  },
+  {
+    "id": 12,
+    "name": "Snorkling",
+    "color": "#d07c7e",
+    "price": 800,
+    "image": "/assets/Snork.jpg",
+    "short-description":"Embark on a private or small-group guided snorkeling tour in Antalya. Go snorkeling in the crystal clear waters and marvel at the colorful fish and sea turtles.",
+    "description": [
+      "● Duration 2.5 -8  hours",
+      "● Skip the ticket line ",
+      "● Live tour guide"
+  ]
+  },
+  {
+    "id": 13,
+    "name": "Land of Legends",
+    "color": "#e140d0",
+    "price": 1500,
+    "image": "/assets/LandOf.png",
+    "short-description":"Experience uninterrupted adrenaline and high excitement with an entrance ticket to the Land of Legends Theme Park in Turkey, located in Belek.",
+    "description": [
+      "● Valid 1 day",
+      "● Skip the ticket line ",
+      "● Mulitlingual Hosts"
+  ]
+  },
+  {
+    "id": 14,
+    "name": "Perge Tour",
+    "color": "#ad699f",
+    "price": 1100,
+    "image": "/assets/1Perge.jpg",
+    "short-description":"Go on a day tour that will take you to some of the most significant ancient Roman sites in the region. See the ancient city of Perge.",
+    "description": [
+      "● Duration 7 hours",
+      "● Live tour guide ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 15,
+    "name": "Side City Tour",
+    "color": "#7ebd58",
+    "price": 1300,
+    "image": "/assets/side1.jpg",
+    "short-description":"Journey into the past as you discover the ancient citiy of Side on this guided tour from Antalya. Explore the ruins of Roman architecture and go for a dip in a waterfall.Hello",
+    "description": [
+      "● Duration 9 hours",
+      "● Skip the ticket line ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 16,
+    "name": "Culinary Tour",
+    "color": "#bdf1ad",
+    "price": 3000,
+    "image": "/assets/türk.jpg",
+    "short-description":"Fill your belly to the brim with fantastic Turkish flavors on a guided  tour of the best food on every side of Antalya. Make 8-9 stops with a variety of delicious samples at each one.",
+    "description": [
+      "● Duration 6 hours",
+      "● Live tour guide ",
+      "● Small group"
+  ]
+  },
+  {
+    "id": 17,
+    "name": "Antalya City Tour",
+    "color": "#81d2d1",
+    "price": 650,
+    "image": "/assets/antalya1.jpg",
+    "short-description":"Experience great views of the Mediterranean Sea and Antalya City with a scenic cable-car ride. You'll also visit two of the most popular waterfalls of city, the Düden and Karpuz Kaldıran waterfalls.    ",
+    "description": [
+      "● Duration 8 hours",
+      "● Live tour guide ",
+      "● Pickup included"
+  ]
+  },
+  {
+    "id": 18,
+    "name": "Antalya Aquarium",
+    "color": "#20ff62",
+    "price": 2100,
+    "image": "/assets/Aquarium.jpg",
+    "short-description":"Spend the day at one of the largest aquariums in the world with a full-day ticket to the Antalya Aquarium, and be inspired and entertained by the world’s marine life.",
+    "description": [
+      "● Duration 4-8 hours",
+      "● Skip the ticket line ",
+      "● Pickup optional"
+  ]
+  },
+  {
+    "id": 21,
+    "name": "Kekova tour",
+    "color": "#a51fc5",
+    "price": 2500,
+    "image": "/assets/kekova.jpg",
+    "short-description":"Discover Lycia's ancient wonders from Demre to Kekova: explore ruins, visit St. Nicholas Church, and cruise the stunning Kekova waters.",
+    "description": [
+      "● Duration 6 hours",
+      "● Skip the ticket line ",
+      "● Live tour guide "
+    ]
+  }
+  ,
+  {
+    "id": 20,
+    "name": "Fire of Anatolia Show",
+    "color": "#a51fc5",
+    "price": 1800,
+    "image": "/assets/FireOf.avif",
+    "short-description":"Hello",
+    "description": [
+      "● Duration 3-8 hours",
+      "● Skip the ticket line ",
+      "● Pickup optional"
+  ]
+}
+  
+  
+  
+]

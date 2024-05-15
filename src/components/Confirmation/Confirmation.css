@@ -1,0 +1,13 @@
+.confirmation-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.confirmation-container h2 {
+  margin-bottom: 10px;
+}
+
+.confirmation-container p {
+  font-size: 16px;
+  color: #666;
+}

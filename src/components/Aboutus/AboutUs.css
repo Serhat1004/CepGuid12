@@ -1,0 +1,122 @@
+.about-us-container {
+  max-width: 1200px;
+  margin: auto; /* Center the container on the page */
+  padding: 20px; /* Padding around the container */
+  color: #333; /* Dark gray color for text */
+  background-color: #f9f9f9; /* Light gray background for the whole container */
+  font-family: Arial, sans-serif; /* Font style for the text */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+/* Sections to separate different parts of the content */
+section {
+  margin-bottom: 30px; /* Space between sections */
+  padding: 20px; /* Padding inside each section */
+  background-color: #fff; /* White background for contrast */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+/* Headings to clearly define each section and sub-section */
+h1, h2, h3 {
+  color: #2a2a2a; /* Slightly darker color for headings */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.05); /* Soft shadow for depth */
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3em; /* Larger size for main title */
+}
+
+h2 {
+  font-size: 2em; /* Size for section titles */
+  border-bottom: 2px solid #eee; /* Subtle line under the title for separation */
+  padding-bottom: 10px; /* Space between title and line */
+
+}
+
+/* Styling for paragraphs to ensure they are easy to read */
+p {
+  font-size: 1.5em; /* Slightly larger font size for readability */
+  margin: 10px 0; /* Margin for spacing around paragraphs */
+}
+
+/* Styling for unordered lists used in the services section */
+ul {
+  list-style-type: none; /* Removing default bullets */
+  padding: 0; /* Removing default padding */
+}
+
+li {
+  padding-left: 20px; /* Padding for list items */
+  position: relative; /* Position relative for custom bullet positioning */
+}
+
+ul li::before {
+  position: absolute; /* Absolute position relative to the li */
+  left: 0; /* Position the bullet at the start of the text */
+  top: 0; /* Align bullet at the top of the text */
+}
+ul.no-bullets {
+  list-style: none; /* Removes the default list styling */
+}
+
+/* Custom list styling removed specifically for no-bullets class */
+ul.no-bullets li::before {
+  content: none; /* Removes the custom bullet */
+}
+
+/* General list styles */
+ul {
+  padding-left: 20px; /* Standard padding */
+}
+
+li {
+  position: relative; /* Needed for positioning custom bullets */
+}
+.crew-section {
+  text-align: center; /* Centers the content within the section */
+}
+
+.crew-images {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  gap: 20px; /* Provides spacing between each crew member */
+}
+
+.crew-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligns items (image and name) centrally in a column */
+}
+
+.crew-image {
+  width: 150px; /* Example width */
+  height: 150px; /* Example height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.crew-name {
+  margin-top: 10px; /* Spacing between the image and the name */
+  font-size: 16px; /* Example font size for names */
+  color: #333; /* Dark color for text */
+}
+
+@media (max-width: 768px) {
+  .about-us-container {
+      padding: 10px;
+  }
+
+  section {
+      padding: 10px;
+  }
+
+  h1, h2 {
+      font-size: 1.5em;
+  }
+
+  p, li {
+      font-size: 1em;
+  }
+}

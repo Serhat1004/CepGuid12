@@ -1,0 +1,72 @@
+/* Main container for the checkout */
+.checkout-container {
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #ffffff; /* Adds a white background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: auto; /* Centering the container */
+}
+
+/* Individual row styling within the container */
+.custom-row {
+  padding: 12px 15px; /* Increased padding for better spacing */
+  margin: 10px 0; /* Top and bottom margin for separation */
+  border: 1px solid #cdcdcd; /* Subtle border color */
+  border-radius: 15px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light grey background for rows */
+}
+
+/* Checkout summary styling to layout price and labels */
+.checkout-summary {
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+}
+
+/* Span styling for text within rows */
+.custom-row span {
+  margin-right: 15px; /* Right margin for inline spacing */
+  font-size: 16px; /* Uniform font size */
+  color: #333; /* Dark grey for text for contrast */
+}
+
+/* Styling for the back button */
+.back-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+
+.back-btn:hover {
+  background-color: #e1e1e1;
+}
+
+.pay-btn:hover {
+  background-color: #0056b3;
+}
+
+.item-button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+.back-btn, .item-button {
+  width: 48%;
+}

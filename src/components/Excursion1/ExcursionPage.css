@@ -1,0 +1,23 @@
+
+.excursion-page {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;         /*Excursion Page centering */
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;                      /*Excursion Page fitting */
+  margin: auto;
+}
+.excursion-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+

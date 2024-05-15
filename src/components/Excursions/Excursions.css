@@ -1,0 +1,53 @@
+.excursions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Distributes cards evenly with space around them */
+  gap: 20px;
+  padding: 24px;
+  background-color: #f4f4f4; 
+}
+
+.excursion-card {
+  width: 18%; /* Adjusted width to fit 5 cards in one row */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.excursion-card:hover {
+  transform: translateY(-5px); /* Raises the card slightly on hover */
+}
+
+/* Styling for the excursion images */
+.excursion-image {
+  width: 100%;
+  height: 180px; /* Fixed height for images */
+  object-fit: cover; /* Ensures the image covers the area properly */
+}
+
+/* Text container inside the card to fix the height of the description */
+.excursion-info p {
+  font-size: 14px;
+  color: #666; /* Font color */
+  line-height: 1.5; /* Line height for better readability */
+}
+
+/* Button styling */
+.excursion-link {
+  display: block; /* Full width block for the button */
+  background-color: #0056b3; 
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto; /* Pushes the button to the bottom of the card */
+  transition: background-color 0.2s; /* Smooth transition for hover */
+}
+
+.excursion-link:hover {
+  background-color: #003e86; /* Darker blue on hover */
+}
